@@ -22,7 +22,7 @@ $('#navToggleBtn').click(() => {
 })
 
 
-if (currentPageName == "index.html") {
+if (currentPageName != "contact.html" || currentPageName != "contact.html") {
     searchInput = document.getElementById('search');
     searchBtn = document.getElementById('searchBtn');
     forecast = document.getElementById('forecast');
